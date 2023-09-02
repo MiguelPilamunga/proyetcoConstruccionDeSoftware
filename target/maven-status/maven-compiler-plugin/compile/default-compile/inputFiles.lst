@@ -1,0 +1,9 @@
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/domain/Composite.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/infrastructure/outputport/ExercisesJPA.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/domain/Componente.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/domain/Exercise.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/ServletInitializer.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/infrastructure/inputport/ExercisesInputPort.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/infrastructure/outputadapter/mysqlrepository/MySQLRepository.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/infrastructure/inputadapter/ExerciseAPI.java
+/home/labctrl/Downloads/APIAiros/APIGym/src/main/java/epn/edu/ec/apiairos/ApiAirosApplication.java

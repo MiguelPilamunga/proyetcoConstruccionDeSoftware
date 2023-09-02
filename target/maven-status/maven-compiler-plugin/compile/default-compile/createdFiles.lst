@@ -1,0 +1,11 @@
+epn/edu/ec/apiairos/domain/Composite.class
+epn/edu/ec/apiairos/domain/Componente.class
+epn/edu/ec/apiairos/ServletInitializer.class
+epn/edu/ec/apiairos/domain/Exercise$Difficulty.class
+epn/edu/ec/apiairos/domain/Exercise$ExerciseBuilder.class
+epn/edu/ec/apiairos/ApiAirosApplication.class
+epn/edu/ec/apiairos/infrastructure/inputport/ExercisesInputPort.class
+epn/edu/ec/apiairos/domain/Exercise.class
+epn/edu/ec/apiairos/infrastructure/outputadapter/mysqlrepository/MySQLRepository.class
+epn/edu/ec/apiairos/infrastructure/outputport/ExercisesJPA.class
+epn/edu/ec/apiairos/infrastructure/inputadapter/ExerciseAPI.class
