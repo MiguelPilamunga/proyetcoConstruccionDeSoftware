@@ -35,4 +35,9 @@ public class APICarro {
         return carritoInput.updateCar(carro);
     }
 
+    @GetMapping("/getAll2")
+    public List<Carro> getAllCars2(){
+        return carritoInput.getCars();
+    }
+
 }
