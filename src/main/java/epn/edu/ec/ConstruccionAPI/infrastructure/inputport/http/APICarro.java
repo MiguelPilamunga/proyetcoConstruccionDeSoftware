@@ -22,12 +22,11 @@ public class APICarro {
     @PostMapping("/save")
     public Carro saveCar(@RequestBody Carro carro){
 
-
         return carritoInput.createCar(carro);
     }
 
     @DeleteMapping("/delete")
-    public void deleteCar(@PathVariable Long id){
+    public void deleteCar(@RequestBody Long id){
         carritoInput.delete(id);
     }
 
