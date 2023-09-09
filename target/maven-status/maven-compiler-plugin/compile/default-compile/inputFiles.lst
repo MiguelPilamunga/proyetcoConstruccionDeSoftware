@@ -1,0 +1,7 @@
+/home/labctrl/Documents/ConstruccionTest/APIGym/src/main/java/epn/edu/ec/ConstruccionAPI/infrastructure/inputport/http/APICarro.java
+/home/labctrl/Documents/ConstruccionTest/APIGym/src/main/java/epn/edu/ec/ConstruccionAPI/aplication/carritoUseCase.java
+/home/labctrl/Documents/ConstruccionTest/APIGym/src/main/java/epn/edu/ec/ConstruccionAPI/infrastructure/inputportadapter/CarritoInput.java
+/home/labctrl/Documents/ConstruccionTest/APIGym/src/main/java/epn/edu/ec/ConstruccionAPI/ServletInitializer.java
+/home/labctrl/Documents/ConstruccionTest/APIGym/src/main/java/epn/edu/ec/ConstruccionAPI/infrastructure/outputport/JPACarro.java
+/home/labctrl/Documents/ConstruccionTest/APIGym/src/main/java/epn/edu/ec/ConstruccionAPI/ConstruccionApiApplication.java
+/home/labctrl/Documents/ConstruccionTest/APIGym/src/main/java/epn/edu/ec/ConstruccionAPI/dominio/Carro.java
