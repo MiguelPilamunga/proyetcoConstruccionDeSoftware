@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: epn.edu.ec.apiairos.infrastructure.outputadapter.mysqlrepository.MySQLRepositoryTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.986 s - in epn.edu.ec.apiairos.infrastructure.outputadapter.mysqlrepository.MySQLRepositoryTest

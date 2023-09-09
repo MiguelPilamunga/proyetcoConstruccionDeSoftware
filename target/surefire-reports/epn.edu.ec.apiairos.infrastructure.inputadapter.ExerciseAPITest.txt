@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: epn.edu.ec.apiairos.infrastructure.inputadapter.ExerciseAPITest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in epn.edu.ec.apiairos.infrastructure.inputadapter.ExerciseAPITest
