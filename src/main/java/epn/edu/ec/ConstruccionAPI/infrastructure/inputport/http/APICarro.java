@@ -3,6 +3,7 @@ package epn.edu.ec.ConstruccionAPI.infrastructure.inputport.http;
 import epn.edu.ec.ConstruccionAPI.dominio.Carro;
 import epn.edu.ec.ConstruccionAPI.infrastructure.inputportadapter.CarritoInput;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,20 +15,19 @@ public class APICarro {
     @Autowired
     CarritoInput carritoInput;
 
-    @GetMapping("/getAll")
+    @GetMapping(value = "getAll" , produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Carro> getAllCars(){
         return carritoInput.getCars();
     }
 
-    @PostMapping("/save")
+    @PostMapping(value = "save")
     public Carro saveCar(@RequestBody Carro carro){
-
         return carritoInput.createCar(carro);
     }
 
-    @DeleteMapping("/delete")
-    public void deleteCar(@RequestBody Long id){
-        carritoInput.delete(id);
+    @DeleteMapping("/delete/{id}")
+    public String deleteCar(@PathVariable("id") Long id){
+        return carritoInput.delete(id);
     }
 
     @PutMapping("/update")
@@ -35,9 +35,5 @@ public class APICarro {
         return carritoInput.updateCar(carro);
     }
 
-    @GetMapping("/getAll2")
-    public List<Carro> getAllCars2(){
-        return carritoInput.getCars();
-    }
 
 }

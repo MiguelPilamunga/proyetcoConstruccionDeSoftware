@@ -11,5 +11,5 @@ public interface CarritoInput {
 
     Carro updateCar(Carro car);
 
-    void delete(Long id);
+    String delete(Long id);
 }

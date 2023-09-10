@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Optional;
+import java.util.logging.LogManager;
 
 @Component
 public class carritoUseCase implements CarritoInput {
@@ -26,11 +28,27 @@ public class carritoUseCase implements CarritoInput {
 
     @Override
     public Carro updateCar(Carro car) {
-        return jpaCarro.save(car);
+        if (jpaCarro.findById(car.getId()).isPresent()){
+            return jpaCarro.save(car);
+        }
+        else {
+            return car;
+        }
+
     }
 
     @Override
-    public void delete(Long id) {
-        jpaCarro.delete(jpaCarro.findById(id).get());
+    public String delete(Long id) {
+        if (getByID(id).isPresent()){
+            jpaCarro.delete(jpaCarro.findById(id).get());
+            return "Auto Borrado";
+        }
+        else {
+           return "Auto no Encontrado";
+        }
+    }
+
+    public Optional<Carro> getByID(Long id){
+        return Optional.of(jpaCarro.getById(id));
     }
 }
